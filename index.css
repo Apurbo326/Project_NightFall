@@ -1,0 +1,30 @@
+.video-item .card {
+    height: 550px;
+    overflow: hidden;
+}
+.video-item img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    height: 200px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Vertical padding */
+    position: absolute; /* Fixed position at the bottom */
+    bottom: 0;
+    width: 100%; /* Full width */
+    font-size: 0.9em; /* Slightly smaller font size */
+  }
+  
+  .footer .container {
+    max-width: 1200px; /* Maximum width of content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Horizontal padding */
+  }
+  
